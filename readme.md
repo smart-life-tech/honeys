@@ -1,9 +1,9 @@
-Sure, here's an example README for a project using the code provided:
+ here's an example README for a project using the code provided:
 
 ```markdown
 # Audio Comparison
 
-This Python script compares a live audio recording with a reference audio file using cross-correlation. It uses the PyAudio library for recording and Librosa for audio processing.
+This Python script compares a live audio recording of the bees with a reference audio file which can be any of the audio file we have in the google doc earlier on using cross-correlation. It uses the PyAudio library for recording and Librosa,numpy for audio processing.
 
 ## Installation
 
@@ -23,7 +23,7 @@ pip install sounddevice
 2. Run the script:
 
 ```bash
-python audio_comparison.py
+python compare.py
 ```
 
 The script will record live audio for a specified duration (default is 5 seconds) and compare it with the reference audio. The maximum correlation index will be printed, indicating the similarity between the recorded and reference audio.
