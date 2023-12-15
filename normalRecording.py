@@ -2,7 +2,7 @@ import librosa
 import numpy as np
 import pyaudio
 
-def record_audio(seconds=5, sample_rate=44100):
+def record_audio(seconds=15, sample_rate=44100):
     p = pyaudio.PyAudio()
     stream = p.open(format=pyaudio.paFloat32,
                     channels=1,

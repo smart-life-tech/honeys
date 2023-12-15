@@ -34,7 +34,7 @@ def compare_audio(live_audio, reference_audio):
     return max_corr_index
 
 # Replace 'reference_audio.wav' with the path to your reference audio file
-reference_file = 'laws.wav'
+reference_file = 'reference_audio.wav'
 
 # Load the reference audio file
 reference_audio, _ = librosa.load(reference_file, sr=None, mono=True)

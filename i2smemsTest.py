@@ -13,6 +13,6 @@ sd.wait()
 print("Recording done.")
 
 # Save the recorded audio to a WAV file
-wav.write('test.wav', sample_rate, audio_data)
+wav.write('reference_audio.wav', sample_rate, audio_data)
 
 print("Audio saved to test.wav.")
